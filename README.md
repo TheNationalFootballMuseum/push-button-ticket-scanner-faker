@@ -33,5 +33,6 @@ The Arduino sketch must be compiled and uploaded to the Arduino UNO microcontrol
 - Connect the Arduino UNO to your computer via a USB cable
 - Within the IDE, compile and upload the sketch to the Arduino UNO
 - If no errors have occurred, you can disconnect the Arduino UNO from your computer
-- Connect the Arduino using the (Schematic Diagram)[https://github.com/TheNationalFootballMuseum/push-button-ticket-scanner-faker/blob/main/Push%20Button%20Ticket%20Scanner%20Faker.pdf]
+- Connect the Arduino using the [Schematic Diagram](https://github.com/TheNationalFootballMuseum/push-button-ticket-scanner-faker/blob/main/Push%20Button%20Ticket%20Scanner%20Faker.pdf)
+![Schematic Diagram](https://github.com/TheNationalFootballMuseum/push-button-ticket-scanner-faker/blob/main/Push%20Button%20Ticket%20Scanner%20Faker.pdf)
 
