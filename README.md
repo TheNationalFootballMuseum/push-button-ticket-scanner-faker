@@ -26,7 +26,12 @@ such as carriage returns or new lines.
 
 ## INSTALLATION
 
-The Arduino Sketch must be compiled and uploaded to the Arduino UNO microcontroller. 
-You will need to download and install the [Arduino IDE](https://www.arduino.cc/en/software) to do this.
-Once you have installed the IDE, download the [Arduino Sketch]() contained within this repo
+The Arduino sketch must be compiled and uploaded to the Arduino UNO microcontroller. 
+- Download and install the [Arduino IDE](https://www.arduino.cc/en/software)
+- Download the [Arduino Sketch](https://github.com/TheNationalFootballMuseum/push-button-ticket-scanner-faker/blob/main/push_button_ticket_scanner_faker.ino)
+- Open the sketch file in the IDE 
+- Connect the Arduino UNO to your computer via a USB cable
+- Within the IDE, compile and upload the sketch to the Arduino UNO
+- If no errors have occurred, you can disconnect the Arduino UNO from your computer
+- Connect the Arduino using the (Schematic Diagram)[https://github.com/TheNationalFootballMuseum/push-button-ticket-scanner-faker/blob/main/Push%20Button%20Ticket%20Scanner%20Faker.pdf]
 
