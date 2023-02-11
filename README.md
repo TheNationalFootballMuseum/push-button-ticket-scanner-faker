@@ -17,7 +17,7 @@ The Arduino UNO microcontroller's integrated LED attached to PIN 13 can be obser
 
 ## WARNING!
 
-The use of the [SoftSerial](https://docs.arduino.cc/learn/built-in-libraries/software-serial) `print` method rather than `println` is within the code of the Arduino Sketch is indeed intentional, DO NOT CHANGE THIS! The connected system expects the format of the message to match exactly as it is defined in the [Arduino Sketch](https://github.com/TheNationalFootballMuseum/push-button-ticket-scannerfaker/blob/main/push_button_ticket_scanner_faker.ino), it does not expect additional terminating characters such as carriage returns `\r` or new-lines `\n`.
+The use of the [SoftSerial](https://docs.arduino.cc/learn/built-in-libraries/software-serial) `print` method rather than `println` within the code of the Arduino Sketch is indeed intentional, DO NOT CHANGE THIS! The connected system expects the format of the message to match exactly as it is defined in the [Arduino Sketch](https://github.com/TheNationalFootballMuseum/push-button-ticket-scannerfaker/blob/main/push_button_ticket_scanner_faker.ino), it does not expect additional terminating characters such as carriage returns `\r` or new-lines `\n`.
 
 If you send invalid messages to the connected system, it is highly likely that the Game Tracking Server will become confused about the current state of the associated interactive game and will not process further ticket messages and the game will not be able to be reset or restarted locally. 
 
