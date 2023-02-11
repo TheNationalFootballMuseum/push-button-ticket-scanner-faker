@@ -23,3 +23,10 @@ The use of the softSerial `print` method
 rather than `println` is intentional, DO NOT CHANGE! 
 The connected system does not expect message terminations 
 such as carriage returns or new lines.
+
+## INSTALLATION
+
+The Arduino Sketch must be compiled and uploaded to the Arduino UNO microcontroller. 
+You will need to download and install the [Arduino IDE](https://www.arduino.cc/en/software) to do this.
+Once you have installed the IDE, download the [Arduino Sketch]() contained within this repo
+
