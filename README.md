@@ -23,5 +23,3 @@ The use of the softSerial `print` method
 rather than `println` is intentional, DO NOT CHANGE! 
 The connected system does not expect message terminations 
 such as carriage returns or new lines.
-
-A microcontroller project that mimics the functionality of a QR code scanner when a button is pressed.
