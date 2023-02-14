@@ -25,12 +25,12 @@
 // such as carriage returns or new lines.
 
 #include <SoftwareSerial.h>
-SoftwareSerial softSerial(10, 9); // RX, TX
+SoftwareSerial softSerial(11, 10); // RX, TX
 
 String URL = "http://www.nationalfootballmuseum.com/join-in/my-football-plus/?tktid=";
 String ticketID = "0317797NVV";
 
-const int buttonPin = 10;
+const int buttonPin = 12;
 const int ledPin = 13;
 int currentButtonState = 0;
 int previousButtonState = 0;
@@ -53,7 +53,7 @@ void loop() {
       digitalWrite(ledPin, HIGH);
       
     } else {
-    	
+      
       digitalWrite(ledPin, LOW);
     }
   
