@@ -5,7 +5,7 @@
 
 ## DETAILS
 
-This repository contains a [Schematic Circuit Diagram](https://github.com/TheNationalFootballMuseum/push-button-ticket-scanner-faker/blob/main/Push_Button_Ticket_Scanner_Faker_Schematic_Diagram.svg) and an [Arduino Sketch](https://github.com/TheNationalFootballMuseum/push-button-ticket-scanner-faker/blob/main/push_button_ticket_scanner_faker.ino) to configure an [Arduino UNO microcontroller](https://store.arduino.cc/products/arduino-uno-rev3) 
+This repository contains a [Schematic Circuit Diagram](https://github.com/TheNationalFootballMuseum/push-button-ticket-scanner-faker/blob/main/Schematic_Diagram.svg) and an [Arduino Sketch](https://github.com/TheNationalFootballMuseum/push-button-ticket-scanner-faker/blob/main/push_button_ticket_scanner_faker.ino) to configure an [Arduino UNO microcontroller](https://store.arduino.cc/products/arduino-uno-rev3) 
 so that when the connected push button is pressed, a message is transmitted via a connected
 [TTL to RS2323 Converter](https://uk.rs-online.com/web/p/interface-adapters-converters/1887097?cm_mmc=UK-PLA-DS3A-_-google-_-CSS_UK_EN_Computing_%26_Peripherals_Whoop-_-Interface+Adapters+%26+Converters_Whoop-_-1887097&matchtype=&pla-329770284461&cq_src=google_ads&cq_cmp=9771206785&cq_term=&cq_plac=&cq_net=g&cq_plt=gp&gclid=CjwKCAiAlp2fBhBPEiwA2Q10D8TmW_kk5C9ADuID2_bbHLCIhYwIQ9HdM4woF5iJS1lUzYgzJuMkwBoCRlcQAvD_BwE&gclsrc=aw.ds) and onward to a [MOXA 5210 Serial Device Server](https://www.moxa.com/en/products/industrial-edge-connectivity/serial-device-servers/general-device-servers/nport-5200-series/nport-5210)
 
@@ -36,8 +36,8 @@ The Arduino sketch must be compiled and uploaded to the Arduino UNO microcontrol
 
 If you need assistance with the above steps, further information can be found in the [Arduino Documentation](https://docs.arduino.cc/tutorials/)
 
-- Finally, connect the Arduino using the [Schematic Diagram](https://github.com/TheNationalFootballMuseum/push-button-ticket-scanner-faker/blob/main/Push_Button_Ticket_Scanner_Faker_Schematic_Diagram.svg) below: 
+- Finally, connect the Arduino using the [Schematic Diagram](https://github.com/TheNationalFootballMuseum/push-button-ticket-scanner-faker/blob/main/Schematic_Diagram.svg) below: 
 
-![Schematic Diagram](https://github.com/TheNationalFootballMuseum/push-button-ticket-scanner-faker/blob/main/Push_Button_Ticket_Scanner_Faker_Schematic_Diagram.svg)
+![Schematic Diagram](https://github.com/TheNationalFootballMuseum/push-button-ticket-scanner-faker/blob/main/Schematic_Diagram.svg)
 
 
